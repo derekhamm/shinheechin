@@ -4,7 +4,7 @@ date: 2020-08-03T18:27:20.111Z
 summary: giuyguyvgyguo
 tags:
   - project
-  - New
+  - Watercolor
 thumbnail: /static/img/fpo.jpg
 ---
 ![](/static/img/fpo.jpg)
