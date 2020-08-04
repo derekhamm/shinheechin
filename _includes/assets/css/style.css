@@ -163,7 +163,7 @@ h1,h2,h3,h4,h5,h6 {
 	color: var(--secondary);
 }
 
-h1, h2, h3 {
+h1, h2 {
 	font-size: 1.4em;
 	margin-top: 1.5em;
 }
@@ -183,8 +183,9 @@ article img {
 	padding: 1em 0;
 }
 
-.projects-list h3, .posts-list h3 {
+h3 {
 	margin: .5em 0;
+	font-size: 1.2em;
 }
 
 /* Post Tags */
@@ -269,16 +270,13 @@ time {
 
 @media screen and (min-width:768px) {
 	:root {
-		font-size: 1.2rem;
+		font-size: 1.15rem;
 	}
 
-	.projects-list {
+	.projects-list, .shows-list {
 		display: grid;
 		grid-template-columns: repeat(2,1fr);
 		grid-column-gap: 1.5em;
-	}
-
-	.projects-list {
 		font-size: smaller;
 	}
 
@@ -294,10 +292,10 @@ time {
 
 @media screen and (min-width:992px) {
 	:root {
-		font-size: 1.4rem;
+		font-size: 1.3rem;
 	}
 
-	.projects-list {
+	.projects-list, .shows-list {
 		grid-template-columns: repeat(3,1fr);
 	}
 
