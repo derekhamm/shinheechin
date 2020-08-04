@@ -16,7 +16,7 @@ collections:
   - name: "work" # Used in routes, e.g., /admin/collections/blog
     label: "Work" # Used in the UI
     label_singular: "Project"
-    folder: "work" # The path to the folder where the documents are stored
+    folder: "projects" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -30,7 +30,7 @@ collections:
   - name: "news" # Used in routes, e.g., /admin/collections/blog
     label: "News" # Used in the UI
     label_singular: "Post"
-    folder: "news" # The path to the folder where the documents are stored
+    folder: "posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -42,8 +42,8 @@ collections:
   # Exhibitions
   - name: "exhibitions" # Used in routes, e.g., /admin/collections/blog
     label: "Exhibitions" # Used in the UI
-    label_singular: "Exhibition"
-    folder: "exhibitions" # The path to the folder where the documents are stored
+    label_singular: "Show"
+    folder: "shows" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
