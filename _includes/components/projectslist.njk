@@ -16,16 +16,6 @@
 					{{ project.data.summary }}
 				</p>
 			{% endif %}
-			{% if project.data.tags %}
-				<p>
-					{% for tag in project.data.tags %}
-		  			{%- if tag != "project" -%}
-		  				{% set tagUrl %}/categories/{{ tag }}/{% endset %}
-		  			<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-		  			{%- endif -%}
-					{% endfor %}
-				</p>
-			{% endif %}
 		</article>
 	{% endfor %}
 </section>

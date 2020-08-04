@@ -4,12 +4,12 @@ section: post
 ---
 
 <article>
-  <h1>{{ title }}</h1>
   <p>
     <small>
       <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time>
     </small>
   </p>
+  <h1>{{ title }}</h1>
 
   {{ layoutContent | safe }}
 
@@ -27,5 +27,5 @@ section: post
 </article>
 
 <nav>
-  <a href="{{ '/blog/' | url }}">← All Posts</a>
+  <a href="{{ '/news/' | url }}">← All Posts</a>
 </nav>
