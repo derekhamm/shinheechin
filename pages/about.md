@@ -6,7 +6,7 @@ eleventyNavigation:
   key: About
   order: 1
 ---
-![](/static/img/fpo.jpg "Shin-hee Chin")
+![](/static/img/chin_redbarn2.jpg "Shin-hee Chin")
 
 ## Bio
 
