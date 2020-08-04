@@ -1,7 +1,0 @@
-{
-  "layout": "layouts/exhibitions.njk",
-  "permalink": "exhibitions/{{ title | slug }}/index.html",
-  "tags": [
-    "exhibition"
-  ]
-}
