@@ -1,10 +1,10 @@
 :root {
-	--primary: #383030;
+	--primary: #58656b;
 	--secondary: #CF482A;
-	--light: #979791;
-	--background: #f6f6eb;
-	--serif: source-han-serif-korean, 'Noto Serif KR', serif;
-	--sans-serif: source-han-sans-korean, 'Noto Sans KR', sans-serif;
+	--light: #87969b;
+	--background: #fbf9f4;
+	--serif: source-han-serif-korean, 'Noto Serif KR', 'Nanum Myeongjo', serif;
+	--sans-serif: source-han-sans-korean, 'Noto Sans KR', 'Nanum Gothic', sans-serif;
 }
 
 *, *:before, *:after {
@@ -24,7 +24,6 @@ body {
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
 	background-color: var(--background);
-	border-top: 9px solid var(--secondary);
 }
 
 header, main, footer, .banner {
@@ -53,7 +52,8 @@ header, main, footer, .banner {
 p,
 pre,
 code {
-	line-height: 1.5;
+	line-height: 1.8;
+	font-weight: 200;
 }
 
 a[href],
@@ -127,7 +127,7 @@ header em {
 	display: block;
 	margin: 1em 0 .5em;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 200;
 	font-family: var(--serif);
 }
 
@@ -135,6 +135,7 @@ header em {
 header nav ul {
 	padding: 0;
 	list-style: none;
+	font-family: var(--serif);
 }
 
 header nav ul :first-child {
@@ -155,7 +156,7 @@ header nav li a[href]:hover, header nav li a[data-current="current item"] {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-weight: 400;
+	font-weight: 200;
 	font-family: var(--serif);
 	color: var(--secondary);
 }
@@ -252,7 +253,7 @@ button:hover {
 }
 
 footer {
-	background: var(--secondary);
+	background: var(--primary);
 	color: var(--background);
 	padding: 1.5em 0;
 }
@@ -296,10 +297,6 @@ time {
 @media screen and (min-width:992px) {
 	:root {
 		font-size: 1.2rem;
-	}
-
-	.projects-list, .shows-list {
-		grid-template-columns: repeat(3,1fr);
 	}
 
 }
