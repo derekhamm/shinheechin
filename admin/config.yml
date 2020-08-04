@@ -39,7 +39,7 @@ collections:
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
-  # Exhibitions
+  # Exhibitions Shows
   - name: "exhibitions" # Used in routes, e.g., /admin/collections/blog
     label: "Exhibitions" # Used in the UI
     label_singular: "Show"
