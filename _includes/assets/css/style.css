@@ -1,10 +1,31 @@
+@font-face {
+	font-family: "Elena";
+	font-weight: 400;
+	font-style: normal;
+	src: url("/static/fonts/ElenaWebBasicRegular.woff") format("woff");
+  }
+
+@font-face {
+	font-family: "Elena";
+	font-weight: 400;
+	font-style: italic;
+	src: url("/static/fonts/ElenaWebBasicRegularItalic.woff") format("woff");
+  }
+
+@font-face {
+	font-family: "Elena";
+	font-weight: 700;
+	font-style: normal;
+	src: url("/static/fonts/ElenaWebBasicBold.woff") format("woff");
+  }
+
 :root {
 	--primary: #58656b;
 	--secondary: #CF482A;
 	--light: #a0acaf;
 	--background: #fbf9f4;
-	--serif: linotype-sabon, source-han-serif-korean, 'Noto Serif KR', 'Nanum Myeongjo', serif;
-	--sans-serif: neue-haas-grotesk-text, source-han-sans-korean, 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+	--serif: "Elena", serif;
+	--sans-serif: Helvetica, neue-haas-grotesk-text, sans-serif;
 }
 
 *, *:before, *:after {
@@ -52,7 +73,7 @@ header, main, footer, .banner {
 p,
 pre,
 code {
-	line-height: 1.8;
+	line-height: 1.6;
 	font-weight: 400;
 }
 
