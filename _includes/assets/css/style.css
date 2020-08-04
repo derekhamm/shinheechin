@@ -1,8 +1,7 @@
 :root {
-	--text: #555555;
+	--text: #666666;
 	--primary: #222222;
 	--secondary: #CF482A;
-	--light: white;
 	--background: #EAE8DD;
 	--serif: 'Noto Serif KR', serif;
 	--sans-serif: 'Noto Sans KR', sans-serif;
@@ -233,7 +232,8 @@ button:hover {
 }
 
 footer {
-	background: var(--light);
+	background: var(--secondary);
+	color: var(--background);
 }
 
 @media screen and (min-width:768px) {
