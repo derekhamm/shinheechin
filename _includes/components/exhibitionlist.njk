@@ -1,0 +1,31 @@
+<section class="exhibition-list">
+	{% for exhibition in exhibitionlist | reverse %}
+		<article {% if exhibition.url == url %} data-current="current item"{% endif %}>
+			<img src="{{ exhibition.data.thumbnail }}" />
+			<h3>
+				<a href="{{ exhibition.url | url }}">
+					{% if exhibition.data.title %}
+						{{ exhibition.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</a>
+			</h3>
+			{% if exhibition.data.summary %}
+				<p>
+					{{ exhibition.data.summary }}
+				</p>
+			{% endif %}
+			{% if exhibition.data.tags %}
+				<p>
+					{% for tag in exhibition.data.tags %}
+		  			{%- if tag != "exhibition" -%}
+		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+		  			<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+		  			{%- endif -%}
+					{% endfor %}
+				</p>
+			{% endif %}
+		</article>
+	{% endfor %}
+</section>
