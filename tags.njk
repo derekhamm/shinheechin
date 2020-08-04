@@ -17,8 +17,8 @@ renderData:
 <h1>{{ tag }}</h1>
 
 {% set postslist = collections[ tag ] %}
-{% include "components/postslist.njk" %}
+{% include "components/newslist.njk" %}
 
 <nav>
-  <a href="{{ '/blog/' | url }}">← All Posts</a>
+  <a href="{{ '/blog/' | url }}">← All News</a>
 </nav>
