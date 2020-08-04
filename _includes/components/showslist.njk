@@ -1,0 +1,21 @@
+<section class="shows-list">
+	{% for show in showslist | reverse %}
+		<article {% if project.url == url %} data-current="current item"{% endif %}>
+			<img src="{{ show.data.thumbnail }}" />
+			<h3>
+				<a href="{{ show.url | url }}">
+					{% if show.data.title %}
+						{{ show.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</a>
+			</h3>
+			{% if show.data.summary %}
+				<p>
+					{{ show.data.summary }}
+				</p>
+			{% endif %}
+		</article>
+	{% endfor %}
+</section>

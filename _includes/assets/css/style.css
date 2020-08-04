@@ -31,7 +31,7 @@ header, main, footer, .banner {
 	display: grid;
 	grid-template-columns: 
 		minmax(.75em,1fr)
-		repeat(12,minmax(.3em,1.5em))
+		repeat(12,minmax(.3em,1.4em))
 		minmax(.75em,1fr)
 		;
 	grid-column-gap: 3%;
@@ -68,7 +68,7 @@ a[href]:hover {
 }
 
 header a[href], header a[href]:visited {
-	color: var(--primary);
+	color: var(--secondary);
 	text-decoration: none;
 	border-bottom: none;
 }
@@ -125,11 +125,12 @@ pre {
 /* Header Logo (style as h2) */
 header em {
 	display: block;
-	font-size: 1em;
-	margin: 1em 0;
+	font-size: smaller;
+	margin: 1.4em 0 .5em;
 	font-style: normal;
 	font-weight: 400;
 	font-family: var(--serif);
+	color: var(--primary);
 }
 
 /* Header Nav */
@@ -144,13 +145,12 @@ header nav ul :first-child {
 
 header nav li {
 	display: inline-block;
-	margin: 0 1em;
+	margin: 0 .75em;
 }
 
 header nav li a[href] {
 	text-decoration: none;
 	font-size: smaller;
-	color: var(--light);
 }
 
 header nav li a[href]:hover, header nav li a[data-current="current item"] {
@@ -166,10 +166,6 @@ h1,h2,h3,h4,h5,h6 {
 h1, h2, h3 {
 	font-size: 1.4em;
 	margin-top: 1.5em;
-}
-
-.projects-list, .posts-list {
-	font-size: smaller;
 }
 
 /* Posts List */
@@ -207,7 +203,7 @@ a[rel="tag"]:visited {
 	color: var(--background);
   border-radius: .1em;
   text-decoration: none;
-	margin: 0 .5em .5em 0;
+	margin: 1em .5em .5em 0;
 }
 
 a[rel="tag"]:hover {
@@ -273,13 +269,17 @@ time {
 
 @media screen and (min-width:768px) {
 	:root {
-		font-size: 1.1rem;
+		font-size: 1.2rem;
 	}
 
 	.projects-list {
 		display: grid;
 		grid-template-columns: repeat(2,1fr);
 		grid-column-gap: 1.5em;
+	}
+
+	.projects-list {
+		font-size: smaller;
 	}
 
 	.logo {
@@ -294,7 +294,7 @@ time {
 
 @media screen and (min-width:992px) {
 	:root {
-		font-size: 1.2rem;
+		font-size: 1.4rem;
 	}
 
 	.projects-list {

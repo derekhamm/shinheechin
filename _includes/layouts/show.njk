@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+section: show
+---
+
+<article>
+  <h1>{{ title }}</h1>
+  <img src="{{ thumbnail }}" />
+
+  {{ layoutContent | safe }}
+
+  {% if tags %}
+    <p>
+    {% for tag in tags %}
+      {%- if tag != "show" -%}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
+    </p>
+  {% endif %}
+
+</article>
+
+<nav>
+  <a href="{{ '/work/' | url }}">← All Shows</a>
+</nav>

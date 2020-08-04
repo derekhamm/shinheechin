@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+section: exhibitions
+permalink: /exhibitions/index.html
+---
+
+{{ layoutContent | safe }}
+
+{% set showslist = collections.show %}
+{% include "components/showslist.njk" %}
