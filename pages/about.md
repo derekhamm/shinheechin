@@ -1,9 +1,9 @@
 ---
-title: Page
+title: About
 date: 2017-01-01T00:00:00.000Z
-permalink: /page/index.html
+permalink: /about/index.html
 eleventyNavigation:
-  key: Page
+  key: About
   order: 1
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum sodales sagittis. Pellentesque blandit ligula ipsum, eu viverra velit iaculis eu. Maecenas at molestie dolor. Morbi quis nisi vel augue condimentum sodales accumsan eget diam. Quisque lacinia sit amet lorem nec efficitur. Nulla vitae justo id nunc malesuada mattis vitae ut nulla.
