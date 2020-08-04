@@ -1,10 +1,10 @@
 :root {
 	--primary: #58656b;
 	--secondary: #CF482A;
-	--light: #87969b;
+	--light: #a0acaf;
 	--background: #fbf9f4;
-	--serif: source-han-serif-korean, 'Noto Serif KR', 'Nanum Myeongjo', serif;
-	--sans-serif: source-han-sans-korean, 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+	--serif: linotype-sabon, source-han-serif-korean, 'Noto Serif KR', 'Nanum Myeongjo', serif;
+	--sans-serif: neue-haas-grotesk-text, source-han-sans-korean, 'Noto Sans KR', 'Nanum Gothic', sans-serif;
 }
 
 *, *:before, *:after {
@@ -53,7 +53,7 @@ p,
 pre,
 code {
 	line-height: 1.8;
-	font-weight: 200;
+	font-weight: 400;
 }
 
 a[href],
@@ -68,7 +68,7 @@ a[href]:hover {
 }
 
 header a[href], header a[href]:visited {
-	color: var(--light);
+	color: var(--primary);
 	text-decoration: none;
 	border-bottom: none;
 }
@@ -127,7 +127,7 @@ header em {
 	display: block;
 	margin: 1em 0 .5em;
 	font-style: normal;
-	font-weight: 200;
+	font-weight: 400;
 	font-family: var(--serif);
 }
 
@@ -156,7 +156,7 @@ header nav li a[href]:hover, header nav li a[data-current="current item"] {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-weight: 200;
+	font-weight: 400;
 	font-family: var(--serif);
 	color: var(--secondary);
 }
