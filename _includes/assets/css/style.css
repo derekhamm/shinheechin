@@ -24,8 +24,8 @@
 	--secondary: #CF482A;
 	--light: #a0acaf;
 	--background: #fbf9f4;
-	--serif: Elena, serif;
-	--sans-serif: Helvetica, neue-haas-grotesk-text, sans-serif;
+	--serif: ff-tisa-web-pro, Elena, serif;
+	--sans-serif: neue-haas-grotesk-text, sans-serif;
 }
 
 *, *:before, *:after {
