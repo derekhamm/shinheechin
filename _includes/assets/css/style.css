@@ -24,7 +24,7 @@
 	--secondary: #CF482A;
 	--light: #a0acaf;
 	--background: #fbf9f4;
-	--serif: ff-tisa-web-pro, Elena, serif;
+	--serif: ff-tisa-web-pro, serif;
 	--sans-serif: neue-haas-grotesk-text, sans-serif;
 }
 
@@ -74,7 +74,6 @@ p,
 pre,
 code {
 	line-height: 1.6;
-	font-weight: 300;
 }
 
 a[href],
