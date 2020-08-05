@@ -1,31 +1,10 @@
-@font-face {
-	font-family: Elena;
-	font-weight: 400;
-	font-style: normal;
-	src: url("/static/fonts/ElenaWebBasicRegular.woff") format("woff");
-  }
-
-@font-face {
-	font-family: Elena;
-	font-weight: 400;
-	font-style: italic;
-	src: url("/static/fonts/ElenaWebBasicRegularItalic.woff") format("woff");
-  }
-
-@font-face {
-	font-family: Elena;
-	font-weight: 700;
-	font-style: normal;
-	src: url("/static/fonts/ElenaWebBasicBold.woff") format("woff");
-  }
-
 :root {
 	--primary: #58656b;
 	--secondary: #CF482A;
 	--light: #a0acaf;
 	--background: #fbf9f4;
 	--serif: ff-tisa-web-pro, serif;
-	--sans-serif: ff-basic-gothic-pro, neue-haas-grotesk-text, sans-serif;
+	--sans-serif: ff-basic-gothic-pro, sans-serif;
 }
 
 *, *:before, *:after {
@@ -272,13 +251,13 @@ button:hover {
 }
 
 footer {
-	background: var(--primary);
+	background: var(--light);
 	color: var(--background);
 	padding: 1.5em 0;
 }
 
 footer a[href], footer a[href]:visited {
-	color: var(--background);
+	
 }
 
 time {
