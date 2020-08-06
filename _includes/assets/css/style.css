@@ -30,7 +30,7 @@ header, main, footer, .banner {
 	display: grid;
 	grid-template-columns: 
 		minmax(.75em,1fr)
-		repeat(12,minmax(.3em,1.4em))
+		repeat(12,minmax(.3em,2em))
 		minmax(.75em,1fr)
 		;
 	grid-column-gap: 3%;
@@ -115,10 +115,10 @@ pre {
 }
 
 .logo img {
-	max-width: 3em;
+	max-width: 2em;
 	float: left;
-	margin-top: 1em;
-	margin-right: 1em;
+	margin-top: .8em;
+	margin-right: .8em;
 }
 
 /* Header Logo (style as h2) */
@@ -277,11 +277,11 @@ time {
 	}
 
 	.logo {
-		grid-column: 2 / span 5;
+		grid-column: 2 / span 6;
 	}
 
 	nav {
-		grid-column: 7 / span 7;
+		grid-column: 8 / span 6;
 	}
 
 
