@@ -1,3 +1,13 @@
+<div class="title">
+  <a href="{{ '/' | url }}">
+    <em>{{ metadata.title }} <span class="sep">|</span> <span class="kr">{{ metadata.title_kr }}</span></em>
+  </a>
+</div>
+
+<div class="logo">
+<img src="{{ metadata.logo }}" />
+</div>
+
 <nav>
   {% set navPages = collections.all | eleventyNavigation %}
   <ul>

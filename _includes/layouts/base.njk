@@ -6,14 +6,11 @@
 	<body>
 
 		<header>
-			{% include "components/logo.njk" %}
 			{% include "components/nav.njk" %}
 		</header>
 
-		<main>
-			<div class="content">
+		<main>			
 			{{ layoutContent | safe }}
-			</div>
 		</main>
 
 		{% include "components/footer.njk" %}
