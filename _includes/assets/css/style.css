@@ -252,6 +252,10 @@ h3 {
 	grid-column-gap: 1.5em;
 }
 
+.post-meta, .post-body {
+	grid-column: span 3;
+}
+
 /* Post Tags */
 a[rel="tag"],
 a[rel="tag"]:visited {
@@ -369,6 +373,14 @@ time {
 	.content {
 		grid-column: 6 / span 8;
 	}
+
+.post-meta {
+	grid-column: span 1;
+}
+
+.post-body {
+	grid-column: span 2;	
+}
 
 }
 
