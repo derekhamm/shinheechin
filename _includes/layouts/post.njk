@@ -2,17 +2,20 @@
 layout: layouts/base.njk
 section: post
 ---
-<div class="content">
-<article>
+
+<article class="post">
+  <div class="post-meta">
   <p>
     <small>
       <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time>
     </small>
   </p>
   <h1>{{ title }}</h1>
+  </div>
 
+  <div class="post-body">
   {{ layoutContent | safe }}
-
+  
   {% if tags %}
     <p>
     {% for tag in tags %}
@@ -32,3 +35,4 @@ section: post
 </div>
 
 </div>
+

@@ -91,7 +91,7 @@ header, main, footer, .banner {
 	text-align: right;
 }
 
-nav, .content, .images, small, form, .projects-list, .posts-list, .shows-list {
+nav, .images, .content, .post, small, form, .projects-list, .posts-list, .shows-list {
 	grid-column: 2 / span 12;
 }
 
@@ -185,7 +185,7 @@ header em {
 }
 
 header em span.kr {
-	font-family: var(--serif-kr);
+	font-family: var(--serif);
 }
 
 header em span.sep {
@@ -244,6 +244,12 @@ article img {
 
 h3 {
 	margin: .5em 0;
+}
+
+.post {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-column-gap: 1.5em;
 }
 
 /* Post Tags */
