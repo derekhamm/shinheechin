@@ -7,11 +7,13 @@ eleventyNavigation:
   order: 1
 sidebar: "0"
 ---
+
+
+![](/static/img/chin_redbarn2.jpg "Shin-hee Chin")
+
 ## Contact
 
 [shinheec@tabor.edu](mailto:shinheec@tabor.edu)
-
-![](/static/img/chin_redbarn2.jpg "Shin-hee Chin")
 
 ## Bio
 
