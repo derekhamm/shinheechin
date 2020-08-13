@@ -68,7 +68,7 @@ header, main, footer, .banner {
 	display: grid;
 	grid-template-columns: 
 		minmax(.75em,1fr)
-		repeat(12,minmax(.3em,2.4em))
+		repeat(12,minmax(.3em,2.7em))
 		minmax(.75em,1fr)
 		;
 	grid-column-gap: 3%;
@@ -332,10 +332,14 @@ time {
 	color: var(--light);
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:640px) {
 	:root {
 		font-size: 1.1rem;
 	}
+}
+
+@media screen and (min-width:768px) {
+	
 
 	.projects-list, .shows-list {
 		display: grid;
@@ -360,14 +364,14 @@ time {
 		grid-column: 12 / span 2;
 	}
 
+	.content {
+		grid-column: 6 / span 8;
+	}
+
 
 	header nav ul {
 	display: flex;
 	justify-content: space-between;
-	}
-
-	.content {
-		grid-column: 6 / span 8;
 	}
 
 .post-meta {
