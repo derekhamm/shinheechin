@@ -67,9 +67,9 @@ body {
 header, main, footer, .banner {
 	display: grid;
 	grid-template-columns: 
-		minmax(1em,1fr)
+		minmax(.75em,1fr)
 		repeat(12,minmax(.3em,2.4em))
-		minmax(1em,1fr)
+		minmax(.75em,1fr)
 		;
 	grid-column-gap: 1.5em;
 }
