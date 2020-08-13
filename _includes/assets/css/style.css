@@ -91,7 +91,7 @@ header, main, footer, .banner {
 	text-align: right;
 }
 
-nav, .images, .content, .post, small, form, .projects-list, .posts-list, .shows-list {
+nav, .images, .sidebar, .content, .post, small, form, .projects-list, .posts-list, .shows-list {
 	grid-column: 2 / span 12;
 }
 
@@ -242,7 +242,7 @@ article img {
 	padding: 1em 0;
 }
 
-h3 {
+h3, .post h1 {
 	margin: .5em 0;
 }
 
@@ -252,7 +252,11 @@ h3 {
 	grid-column-gap: 1.5em;
 }
 
-.post-meta, .post-body {
+.post-nav {
+	margin-top: 1.5em;
+}
+
+.post-meta, .post-body, .post-nav {
 	grid-column: span 3;
 }
 
@@ -368,6 +372,10 @@ time {
 	header nav ul {
 	display: flex;
 	justify-content: space-between;
+	}
+
+	.sidebar {
+		grid-column: 2 / span 4;
 	}
 
 	.content {

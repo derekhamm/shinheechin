@@ -2,9 +2,12 @@
 layout: layouts/base.njk
 section: show
 ---
-<div class="content">
-<article>
+<article class="post">
+  <div class="post-meta">
   <h1>{{ title }}</h1>
+  <p>{{ summary }}</p>
+  </div>
+  <div class="post-body">
   <img src="{{ thumbnail }}" />
 
   {{ layoutContent | safe }}
@@ -19,12 +22,12 @@ section: show
     {% endfor %}
     </p>
   {% endif %}
+  </div>
+
+  <div>
+  <a href="{{ '/exhibitions/' | url }}">← All Shows</a>
+</div>
 
 </article>
 
 
-<div>
-  <a href="{{ '/work/' | url }}">← All Shows</a>
-</div>
-
-</div>

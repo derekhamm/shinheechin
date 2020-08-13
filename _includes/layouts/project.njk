@@ -2,11 +2,14 @@
 layout: layouts/base.njk
 section: project
 ---
-<div class="content">
-<article>
+<article class="post">
+  <div class="post-meta">
   <h1>{{ title }}</h1>
-  <img src="{{ thumbnail }}" />
+  <p>{{ summary }}</p>
+  </div>
 
+  <div class="post-body">
+    <img src="{{ thumbnail }}" />
   {{ layoutContent | safe }}
 
   {% if tags %}
@@ -19,11 +22,10 @@ section: project
     {% endfor %}
     </p>
   {% endif %}
+  </div>
 
-</article>
-
-<div>
+  <div class="post-nav">
   <a href="{{ '/work/' | url }}">← All Projects</a>
 </div>
 
-</div>
+</article>

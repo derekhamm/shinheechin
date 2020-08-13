@@ -70,4 +70,5 @@ collections:
         fields:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
+      - { label: "Sidebar", name: "sidebar", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
