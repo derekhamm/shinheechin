@@ -9,4 +9,6 @@ eleventyNavigation:
   key: Home
 banner: /static/img/fpo-banner.jpg
 ---
-![](/static/img/daybreak.jpg)
+![](/static/img/gravity-and-grace.jpg)
+![](/static/img/indiangrass.jpg)
+![](/static/img/night-trees.jpg)
