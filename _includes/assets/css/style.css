@@ -27,14 +27,23 @@ body {
 	background-color: var(--background);
 }
 
-.images img { 
-    color: transparent;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: none;
+.images {
+	display: grid;
+}
+
+.images p { 
+	grid-column: 1;
+	grid-row: 1;
     opacity: 0;
-    z-index: -1;
     animation: imageAnimation 12s linear infinite 0s; 
+}
+
+.images p:nth-child(2) {
+	animation-delay: 4s;
+}
+
+.images p:nth-child(3) {
+	animation-delay: 8s;
 }
 
 @keyframes imageAnimation { 
@@ -42,14 +51,14 @@ body {
 	    opacity: 0;
 	    animation-timing-function: ease-in;
 	}
-	17% {
+	5% {
 	    opacity: 1;
 	    animation-timing-function: ease-out;
 	}
 	33% {
 	    opacity: 1;
 	}
-	50% {
+	38% {
 	    opacity: 0;
 	}
 	100% { opacity: 0 }
