@@ -9,4 +9,4 @@ eleventyNavigation:
   key: Home
 banner: /static/img/fpo-banner.jpg
 ---
-![](/static/img/daybreak.jpg)
+![]()
