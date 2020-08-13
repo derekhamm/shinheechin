@@ -48,7 +48,7 @@ body {
 }
 
 .images img {
-	height: 75vh;
+	height: 100vh;
 	object-fit: contain;
 	object-position: top center;
 }
