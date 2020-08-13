@@ -91,7 +91,7 @@ header, main, footer, .banner {
 	text-align: right;
 }
 
-nav, .images, .sidebar, .content, .post, small, form, .projects-list, .posts-list, .shows-list {
+nav, .images, .content, .post, small, form, .projects-list, .posts-list, .shows-list {
 	grid-column: 2 / span 12;
 }
 
@@ -372,10 +372,6 @@ time {
 	header nav ul {
 	display: flex;
 	justify-content: space-between;
-	}
-
-	.sidebar {
-		grid-column: 2 / span 4;
 	}
 
 	.content {
