@@ -5,8 +5,12 @@ permalink: /about/index.html
 eleventyNavigation:
   key: About
   order: 1
-sidebar: "[shinheec@tabor.edu](mailto:shinheec@tabor.edu)"
+sidebar: "0"
 ---
+## Contact
+
+[shinheec@tabor.edu](mailto:shinheec@tabor.edu)
+
 ![](/static/img/chin_redbarn2.jpg "Shin-hee Chin")
 
 ## Bio
