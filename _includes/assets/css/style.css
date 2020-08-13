@@ -226,6 +226,13 @@ h1, h2, h3 {
 	margin-top: 1.5em;
 }
 
+h4 {
+	font-family: var(--sans-serif);
+	margin-top: 1.5em;
+	margin-bottom: .5em;
+	color: var(--light);
+}
+
 /* Posts List */
 article {
 	margin-bottom: 1em;
