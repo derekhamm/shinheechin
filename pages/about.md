@@ -36,3 +36,5 @@ The process of arbitrary wrapping and stitching, which does not differ much from
 경제주체간의 조화를 통한 경제의 민주화를 위하여 경제에 관한 규제와 조정을 할 수 있다. 모든 권력은 국민으로부터 나온다. 1차에 한하여 중임할 수 있다. 주권의 제약에 관한 조약.
 
 ## CV
+
+[Download PDF](/static/img/stewards-of-the-land.pdf)
