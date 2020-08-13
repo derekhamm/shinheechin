@@ -2,13 +2,13 @@
 layout: layouts/base.njk
 section: project
 ---
-<article class="post">
-  <div class="post-meta">
+<article class="project">
+  <div class="project-meta">
   <h1>{{ title }}</h1>
   <p>{{ summary }}</p>
   </div>
 
-  <div class="post-body">
+  <div class="project-body">
     <img src="{{ thumbnail }}" />
   {{ layoutContent | safe }}
 
@@ -24,7 +24,7 @@ section: project
   {% endif %}
   </div>
 
-  <div class="post-nav">
+  <div class="project-nav">
   <a href="{{ '/work/' | url }}">← All Projects</a>
 </div>
 
