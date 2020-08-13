@@ -9,6 +9,8 @@ sidebar: "0"
 ---
 ![](/static/img/chin_redbarn2.jpg "Shin-hee Chin")
 
+## Contact
+
 Email: [shinheec@tabor.edu](mailto:shinheec@tabor.edu)
 
 Instagram: [@shinheechin](https://www.instagram.com/shinheechin/?hl=en)
