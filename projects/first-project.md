@@ -7,7 +7,7 @@ tags:
   - Category
 thumbnail: /static/img/big-bluestem_1.jpg
 ---
-![](/static/img/little-bluestem_4.jpg)
+![](/static/img/little-bluestem_4.jpg "Little Bluestem")
 
 ![](/static/img/switchgrass_3.jpg)
 
