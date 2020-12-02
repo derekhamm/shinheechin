@@ -6,6 +6,9 @@ tags:
   - project
   - Category
 thumbnail: /static/img/big-bluestem_1.jpg
+images:
+  - image: /static/img/fpo-banner.jpg
+    Caption: Another piece of work.
 ---
 ![](/static/img/little-bluestem_4.jpg "Little Bluestem")
 
