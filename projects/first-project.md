@@ -7,10 +7,7 @@ tags:
   - Category
 thumbnail: /static/img/big-bluestem_1.jpg
 images:
-  - image: /static/img/fpo-banner.jpg
-    Caption: Another piece of work.
-    caption: This is the caption.
-    imgSrc: /static/img/fpo.jpg
+  - imgSrc: /static/img/fpo.jpg
     imgDesc: This is a caption.
 ---
 ![](/static/img/little-bluestem_4.jpg "Little Bluestem")
