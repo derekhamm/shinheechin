@@ -10,6 +10,8 @@ images:
   - image: /static/img/fpo-banner.jpg
     Caption: Another piece of work.
     caption: This is the caption.
+    imgSrc: /static/img/fpo.jpg
+    imgDesc: This is a caption.
 ---
 ![](/static/img/little-bluestem_4.jpg "Little Bluestem")
 
