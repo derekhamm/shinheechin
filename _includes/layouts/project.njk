@@ -9,7 +9,12 @@ section: project
   </div>
 
   <div class="project-body">
-    <img src="{{ thumbnail }}" />
+    {% for image in images %}
+      <figure>
+        <img src="{{ image.imgSrc }}">
+        <figcaption>{{ image.imgDesc }}</figcaption>
+      </figure>
+    {% endfor %}
   {{ layoutContent | safe }}
 
   {% if tags %}

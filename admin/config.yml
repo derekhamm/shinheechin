@@ -26,6 +26,12 @@ collections:
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Thumbnail", name: "thumbnail", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        fields:
+          - { label: "Image", name: "imgSrc", widget: "image" }
+          - { label: "Caption", name: "imgDesc", widget: "string" }
   # News posts
   - name: "news" # Used in routes, e.g., /admin/collections/blog
     label: "News" # Used in the UI
