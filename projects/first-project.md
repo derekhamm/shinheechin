@@ -7,13 +7,11 @@ tags:
   - Category
 thumbnail: /static/img/big-bluestem_1.jpg
 images:
-  - imgSrc: /static/img/fpo.jpg
-    imgDesc: This is a caption.
+  - imgSrc: /static/img/indiangrass.png
+    imgDesc: Indian Grass
+  - imgSrc: /static/img/big-bluestem_1.jpg
+    imgDesc: Big Bluestem
 ---
-![](/static/img/little-bluestem_4.jpg "Little Bluestem")
-
-![](/static/img/switchgrass_3.jpg)
-
 As a person who has spent half her life in South Korea and the other half in the United States, cultural context has shaped almost all my works. During my time in America, I have lived on both coasts before settling in the Midwest. Humans are typically the subject matter in my work, but my 15 years as a Kansan have changed my relationship to the subtle landscape of the Great Plains. “Splendor in the Grass” sets out to explore the cultural and artistic encounter through a new frame of reference and aesthetic investigation.
 
 The tradition of landscape in Western art has been increasingly concerned with reproducing nature; whereas Eastern landscape art is more interested in reproducing a stylized vision of nature. Despite the differences between these approaches, there are distinct parallels and consonances. The intention of, creating landscape is to suggest the essence, the eternal qualities of the landscape beyond reality, something sublime. It is imbuing the landscape with a “spirit resonance” or vitality. The process of the work is a record of energy being transferred from the artist into the work.
