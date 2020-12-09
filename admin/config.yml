@@ -94,4 +94,3 @@ collections:
             fields:
               - { label: "Image", name: "imgSrc", widget: "image" }
               - { label: "Caption", name: "imgDesc", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }

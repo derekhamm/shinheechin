@@ -11,4 +11,3 @@ images:
   - imgSrc: /static/img/image-3.jpg
     imgDesc: Indian Grass
 ---
-Testing
