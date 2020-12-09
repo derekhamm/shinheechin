@@ -37,6 +37,7 @@ body {
 	grid-row: 1;
     opacity: 0;
 	animation: imageAnimation 12s linear infinite 0s; 
+	margin-top: 0;
 }
 
 .images p:nth-child(2) {

@@ -25,13 +25,13 @@ collections:
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Thumbnail", name: "thumbnail", widget: "image" }
-      - { label: "Body", name: "body", widget: "markdown" }
       - label: "Images"
         name: "images"
         widget: "list"
         fields:
           - { label: "Image", name: "imgSrc", widget: "image" }
           - { label: "Caption", name: "imgDesc", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
   # News posts
   - name: "news" # Used in routes, e.g., /admin/collections/blog
     label: "News" # Used in the UI
@@ -77,3 +77,21 @@ collections:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown" }
+  # Home Page
+  - name: "home"
+    label: "Home"
+    files:
+      - name: "home"
+        label: "Home"
+        file: "home.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "imgSrc", widget: "image" }
+              - { label: "Caption", name: "imgDesc", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }

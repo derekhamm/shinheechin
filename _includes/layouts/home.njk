@@ -4,5 +4,11 @@ section: home
 ---
 
 <div class="images">
-    {{ layoutContent | safe }}
+    {% for image in images %}
+        <img src="{{ image.imgSrc }}">
+    {% endfor %}
+</div>
+
+<div class="content">
+{{ layoutContent | safe }}
 </div>
