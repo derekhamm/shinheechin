@@ -18,7 +18,7 @@ section: project
   {{ layoutContent | safe }}
 
   {% if tags %}
-    <p>
+    <p class="tags">
     {% for tag in tags %}
       {%- if tag != "project" -%}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}

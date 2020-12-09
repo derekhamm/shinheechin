@@ -169,13 +169,21 @@ pre {
 }
 
 figure {
-	margin: 1.5em 0;
+	margin: 1em 0 2em;
+}
+
+article figure img {
+	padding-bottom: .5em;
 }
 
 figcaption {
 	font-family: var(--serif);
 	color: var(--light);
 	font-style: italic;
+}
+
+.tags {
+	margin: 2em 0;
 }
 
 .logo img {
@@ -399,30 +407,12 @@ time {
 	justify-content: space-between;
 	}
 
-.post-meta {
+.post-meta, .project-meta {
 	grid-column: span 1;
 }
 
-.post-body {
+.post-body, .project-body {
 	grid-column: span 2;	
-}
-
-.project-meta {
-	grid-column: span 2;
-}
-
-.project-body {
-	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	grid-column-gap: 1.5em;;
-}
-
-.project-body img, .project-body figure {
-	grid-column: span 3;
-}
-
-.project-body p {
-	grid-column: 1 / span 3;
 }
 
 }
