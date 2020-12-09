@@ -38,7 +38,7 @@ body {
     opacity: 0;
 	animation: imageAnimation 12s linear infinite 0s; 
 	width: 100%;
-	height: 70vh;
+	height: 60vh;
 	object-fit: cover;
 	object-position: center center;
 }
