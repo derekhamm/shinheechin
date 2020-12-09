@@ -13,7 +13,7 @@ section: show
   {{ layoutContent | safe }}
 
   {% if tags %}
-    <p>
+    <p class="tags">
     {% for tag in tags %}
       {%- if tag != "show" -%}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
