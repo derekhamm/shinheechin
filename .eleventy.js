@@ -8,9 +8,22 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
 
-  eleventyConfig.addJavaScriptFunction("myImage", function(src, alt, options) {
-    // returns Promise
-    return Image(src, options);
+  // works also with addLiquidShortcode or addJavaScriptFunction
+  eleventyConfig.addNunjucksAsyncShortcode("image", async function(src, alt) {
+    if(alt === undefined) {
+      // You bet we throw an error on missing alt (alt="" works okay)
+      throw new Error(`Missing \`alt\` on myImage from: ${src}`);
+    }
+
+    let metadata = await Image(src, {
+      widths: [null],
+      formats: ["jpg"],
+      urlPath: "/static/img",
+      outputDir: "./_site/static/img"
+    });
+
+    let data = metadata.jpeg.pop();
+    return `<img src="${data.url}" width="${data.width}" height="${data.height}" alt="${alt}">`;
   });
 
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
