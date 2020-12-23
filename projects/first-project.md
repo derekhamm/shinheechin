@@ -7,8 +7,6 @@ tags:
   - Category
 thumbnail: /static/img/big-bluestem_1.jpg
 images:
-  - imgSrc: /static/img/indiangrass.png
-    imgDesc: Indian Grass
   - imgSrc: /static/img/big-bluestem_1.jpg
     imgDesc: Big Bluestem
 ---
